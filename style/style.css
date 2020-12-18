@@ -1,17 +1,34 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto:300);
 html{
-  font-family: 'Droid Sans'; sans-serif;
+  font-family: "Roboto", sans-serif;
   letter-spacing: 0.03em;
+  font-size: 15px;
 }
 span{
-  font-family: 'Droid Sans'; sans-serif
+  font-family: "Roboto", sans-serif;
 }
 body{
     background-color: #FBFBFB;
 }
-h1, h2 {
+h1 {
     text-align: center;
     color:#444444;
+    font-family: 'Droid Sans'; sans-serif;
+    font-size: 27px;
+}
+h2 {
+  text-align: center;
+  color:#444444;
+  font-family: 'Droid Sans'; sans-serif;
+  font-size: 24px;
+}
+h3 {
+  color:#f2f2f2;
+  font-family: 'Droid Sans'; sans-serif;
+  font-size: 20px;
+}
+.form h3{
+  color: #444444;
 }
 
 /* .pagination-container *::after,
@@ -218,7 +235,9 @@ h1, h2 {
   .cont-header-4{
     width: 20%!important;
   }
-
+.cont-header span{
+  font-size: 1;
+}
 
   .cont1 {
     width: 100%!important;
@@ -346,7 +365,7 @@ h1, h2 {
     margin: 0 0 15px;
     padding: 15px;
     box-sizing: border-box;
-    font-size: 14px;
+    font-size: 16px;
   }
   .form textarea{
     font-family: "Roboto", sans-serif;
@@ -357,7 +376,7 @@ h1, h2 {
     margin: 0 0 15px;
     padding: 15px;
     box-sizing: border-box;
-    font-size: 14px;
+    font-size: 16px;
   }
   .form button {
     font-family: "Roboto", sans-serif;
@@ -368,7 +387,7 @@ h1, h2 {
     border: 0;
     padding: 15px;
     color: #FFFFFF;
-    font-size: 14px;
+    font-size: 15px;
     -webkit-transition: all 0.3 ease;
     transition: all 0.3 ease;
     cursor: pointer;
@@ -379,7 +398,7 @@ h1, h2 {
   .form .message {
     margin: 15px 0 0;
     color: #b3b3b3;
-    font-size: 12px;
+    font-size: 13px;
     text-align: justify;
   }
   .form .message a {
@@ -394,6 +413,8 @@ h1, h2 {
     flex-wrap: wrap;
     background-color: #444444;
     color: #FBFBFB;
+    font-family: 'Droid Sans'; sans-serif;
+    font-size: 17px;
   }
 
   .cont-footer-1{
@@ -509,7 +530,7 @@ h1, h2 {
   border: 0;
   padding: 15px;
   color: #FFFFFF;
-  font-size: 14px;
+  font-size: 15px;
   -webkit-transition: all 0.3 ease;
   transition: all 0.3 ease;
   cursor: pointer;
@@ -734,4 +755,43 @@ h1, h2 {
   right:0;
   bottom: 0;
   margin-right: 10%;
+}
+
+.cont-advantages{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  max-width: 85%;
+}
+.cont-advantage1{
+  width: 35%;
+}
+.cont-advantage2{
+  width: 35%;
+}
+.cont-advantage3{
+  width: 35%;
+}
+.cont-advantage4{
+  width: 35%;
+}
+
+ /* .icon-advantages{
+  vertical-align: middle;
+  height: 40px;
+  width: 40px;
+  padding: 0px 7px 3.5px 0px;
+  position: relative;
+  left: 20%;
+  
+ }
+
+.cont-advantsges span{
+  position: relative;
+  left: 52%;
+} */
+
+.icon-advantages{
+  width: 50px;
+  height: 50px;
 }
