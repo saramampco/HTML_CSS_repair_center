@@ -3,6 +3,7 @@ html{
   font-family: "Roboto", sans-serif;
   letter-spacing: 0.03em;
   font-size: 15px;
+  width: 100%!important;
 }
 span{
   font-family: "Roboto", sans-serif;
@@ -43,11 +44,13 @@ h3 {
 	background: #60CAAD;
     color: #FFF;
     height: 50px;
-    width: 99%;
-	  padding-left: 18px;
+    width: 101.3%;
+    margin-left: -0.7%;
+    margin-right: 0;
+	  padding-left: 450px;
     border-radius: 0px;
 
- 
+
 }
 #menu ul, #menu li {
 	margin: 0 auto;
@@ -125,7 +128,6 @@ h3 {
 }
 
 
-
 @media screen and (max-width: 800px){
 	#menu {position:relative}
 	#menu ul {background: #60CAAD;position:absolute;top:100%;right:0;left:0;z-index:3;height:auto;display:none}
@@ -138,16 +140,11 @@ h3 {
 	#menu input:checked + label:before {content:"\00d7"}
   #menu input:checked ~ ul {display:block}
  
-  #menu {
-    width: 85%!important;
-  }
-  .cont-header{
-    width: 80%!important;
+.cont-header{
+    width: 90%!important;
     margin-right: 20%!important;
   }
-  .body{
-    width: 80%!important;
-  }
+
   .orderpage-buttons-flex{
   display: flex;
   flex-wrap: nowrap!important;
