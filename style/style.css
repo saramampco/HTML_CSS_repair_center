@@ -287,6 +287,32 @@ h3 {
     width: 100%!important;
   }
 
+.cont-master1{
+  width: 80%!important;
+  /* margin-left: -15%; */
+
+}
+.cont-master2{
+  width: 80%!important;
+  /* margin-left: -15%; */
+}
+.cont-master3{
+  width: 80%!important;
+  /* margin-left: -15%; */
+}
+.cont-master4{
+  width: 80%!important;
+  /* margin-left: -15%; */
+}
+.cont-master5{
+  width: 80%!important;
+  /* margin-left: -15%; */
+}
+.cont-master6{
+  width: 80%!important;
+  /* margin-left: -15%; */
+}
+
 
 }
 
@@ -830,6 +856,58 @@ h3 {
   display: block;
   margin: 3% auto;
   margin-bottom: 8%;
-  
-
 }
+
+.about-us{
+  max-width: 70%;
+  margin: 3% auto 5% auto;
+}
+
+.card-master{
+  width: 19em;
+  box-shadow: 5px 4px 15px 1px rgba(0, 0, 0, 0.16);
+  padding: 13px 0 13px 25px;
+}
+.card-master img{
+  width: 15em;
+  height: auto;
+  display: block;
+  margin:auto;
+}
+
+.cont-masters{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+  margin: 5% 0 1% 5%;
+}
+
+.cont-master1{
+  width: 30%;
+  margin-bottom: 5%;
+  
+}
+.cont-master2{
+  width: 30%;
+  margin-bottom: 5%;
+}
+.cont-master3{
+  width: 30%;
+  margin-bottom: 5%;
+}
+.cont-master4{
+  width: 30%;
+  margin-bottom: 5%;
+}
+.cont-master5{
+  width: 30%;
+  margin-bottom: 5%;
+}
+.cont-master6{
+  width: 30%;
+  margin-bottom: 5%;
+}
+
