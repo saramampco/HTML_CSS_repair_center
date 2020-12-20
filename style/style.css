@@ -1000,11 +1000,11 @@ box-shadow: 2px 2px 15px 1px rgba(170, 169, 169, 0.61);
 } */
 .review-title{
   width: 40%;
-  margin: 2% 0 3% 2.5%;
+  margin: 3% 0 3% 2.5%;
 }
 .review-star{
 width: 40%;
-margin: 1.5% 0 3% 0;
+margin: 2.5% 0 3% 0;
 }
 .review-star img{
 display: block;
@@ -1025,7 +1025,7 @@ float: right;
 .review-answer{
   width: 40%;
   margin-top: -35%;
-  margin-left: 40%;
+  margin-left: 42%;
 }
 
 fieldset, label { margin: 0 0 2% 0; padding: 0; }
