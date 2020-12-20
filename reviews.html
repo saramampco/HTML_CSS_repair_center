@@ -120,15 +120,65 @@
                         <span>Людмила</span>
                         <span>12.09.2020</span>
                 </div>
+                <div class="review-star">
+                  <img src="image/stars.png" alt="">
+                </div>
                 <div class="review-img">       
                 <a href="image/review_screenshot.jpg" target="_blank" title="Нажмите, для просмотра в полном размере"><img alt="альтернативное название картинки" style="height: 31em;" src="image/review_screenshot.jpg"></a>
                 </div>  
                 <div class="review-text"><p>Хорошее обслуживание, всё очень понравилось. Мастер молодец, выполнил в кратчайшие сроки. Дали гарантию полгода!</p>
                 </div>
-                <div class="review-answer"><p>Спасибо за отзыв! Ждём вас в нашем сервисном центре.</p>
+                
+                <div class="review-answer">
+                  <p style="color:#444444; font-weight: bold">Ответ компании:</p>
+                  <p>Спасибо за отзыв! Ждём вас в нашем сервисном центре.</p>
                 </div>
 
                 </div>
+                <div class="form">
+                  <form class="order-form">
+                      <h3>Скидка 15% при заказе онлайн</h3>
+                          <input type="text" placeholder="Телефон/email"/>
+                          <input type="text" placeholder="Имя"/>
+                          <select name="type" id="slct">
+                            <option style="color: #7b7b7b;" selected disabled>Тип техники</option>
+                            <optgroup label="Крупная бытовая техника">
+                                <option value="1">Холодильник</option>
+                                <option value="2">Стиральная машина</option>
+                                <option value="3">Кондиционер</option>
+                            </optgroup>
+                            <optgroup label="Мелкая бытовая техника">
+                                <option value="1">Фен</option>
+                                <option value="2">Миксер</option>
+                                <option value="3">Чайник</option>
+                                <option value="4">Утюг</option>
+                            </optgroup>
+                            <optgroup label="Цифровая техника">
+                                <option value="1">Ноутбук</option>
+                                <option value="2">Фотоаппарат</option>
+                            </optgroup>
+                        </select>
+                        <select name="service" id="slct">
+                          <option value="1">Ремонт двигателя</option>
+                          <option value="2">Замена прокладки</option>
+                          <option value="3">Замена фриза</option>
+                      </select>
+                      <fieldset class="rating">
+                        <input type="radio" id="star5" name="rating" value="5" /><label class = "full" for="star5" title="Отлично - 5 звёзд"></label>
+                        <input type="radio" id="star4half" name="rating" value="4 and a half" /><label class="half" for="star4half" title="Очень хорошо - 4.5 звезды"></label>
+                        <input type="radio" id="star4" name="rating" value="4" /><label class = "full" for="star4" title="Хорошо - 4 звезды"></label>
+                        <input type="radio" id="star3half" name="rating" value="3 and a half" /><label class="half" for="star3half" title="Средне - 3.5 звезды"></label>
+                        <input type="radio" id="star3" name="rating" value="3" /><label class = "full" for="star3" title="Удовлетворительно - 3 звезды"></label>
+                        <input type="radio" id="star2half" name="rating" value="2 and a half" /><label class="half" for="star2half" title="Плоховато - 2.5 звезды"></label>
+                        <input type="radio" id="star2" name="rating" value="2" /><label class = "full" for="star2" title="Плохо - 2 звезды"></label>
+                        <input type="radio" id="star1half" name="rating" value="1 and a half" /><label class="half" for="star1half" title="Очень плохо - 1.5 звезды"></label>
+                        <input type="radio" id="star1" name="rating" value="1" /><label class = "full" for="star1" title="Отвратительно - 1 звезда"></label>
+                        <input type="radio" id="starhalf" name="rating" value="half" /><label class="half" for="starhalf" title="Хуже быть не может - 0.5 звезды"></label>
+                    </fieldset>
+                          <textarea placeholder="Текст отзыва"></textarea>
+                          <button>Отправить</button>
+                          <p class="message">Нажимая на кнопку "Отправить" вы даёте согласие на обработку персональных данных</p>
+                      </div>
 
                 <footer>
                     <div class="cont-footer">
