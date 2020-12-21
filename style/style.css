@@ -1,16 +1,26 @@
+
+
+
+
+
 @import url(https://fonts.googleapis.com/css?family=Roboto:300);
 html{
   font-family: "Roboto", sans-serif;
   letter-spacing: 0.03em;
   font-size: 15px;
   width: 100%;
+  height: 100%;
   margin:0;
+  padding: 0;
 }
 span{
   font-family: "Roboto", sans-serif;
 }
 body{
     background-color: #FBFBFB;
+    height: 100%;
+    width: 100%;
+    
 }
 h1 {
     text-align: center;
@@ -30,11 +40,17 @@ h3 {
   font-family: 'Droid Sans'; sans-serif;
   font-size: 20px;
 }
+ footer{
+   width: 100%;
+ }
 .cont-footer h3{
   color: #f2f2f2;
 }
 .form h3{
   color: #444444;
+}
+nav, header{
+  width: 100%;
 }
 
 /* .pagination-container *::after,
@@ -377,6 +393,31 @@ h3 {
         width: 80%!important;
   }
 
+  .price-list-title{
+    background-color: #E0E4D6;
+    max-width: 91%!important;
+    display: block;
+    margin: 3.5% auto 2% auto;
+    height: 3.1em;
+    padding-top: 1px;
+    padding-left: 20px;
+  }
+  .price-list-item{
+    max-width: 90%!important;
+    border: 1.5px solid #888;
+    background: #fff;
+    display: block;
+    margin: 1% auto 0 auto;
+    padding-left: 20px;
+    position: relative;
+  }
+  .price-item{
+    position: absolute;
+    top:0;
+    right: 7px!important;
+  }
+
+
 
 }
 
@@ -384,7 +425,7 @@ h3 {
 	display: flex;
 	flex-wrap: wrap;
 	padding: 0;
-	margin: 2rem 0 0 0;
+	margin: 1.5rem 0 0 0;
 	list-style: none;
 }
 
@@ -474,6 +515,9 @@ h3 {
     text-align: center;
     box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
   }
+  .form h3{
+    margin-bottom: 3%;
+  }
   .form input{
     font-family: "Roboto", sans-serif;
     outline: 0;
@@ -538,26 +582,29 @@ h3 {
 
   .cont-footer{
     display: flex;
-    margin: auto;
+    margin: 0;
     flex-direction: row;
     flex-wrap: wrap;
     background-color: #444444;
     color: #FBFBFB;
-    font-family: 'Droid Sans'; sans-serif;
-    font-size: 17px;
+    font-size: 15px;
   }
 
   .cont-footer-1{
-    width: 25%;
+    width: 20%;
+    padding: 2%;
   }
   .cont-footer-2{
     width: 25%;
+    padding-top: 1.5%;
   }
   .cont-footer-3{
     width: 25%;
+    padding-top: 1.5%;
   }
   .cont-footer-4{
     width: 25%;
+    padding-top: 1.5%;
   }
   .cont-footer ul{
     text-decoration: none;
@@ -1142,55 +1189,14 @@ h1 { font-size: 1.5em; margin: 10px; }
 }
 .address-text{
 margin-left: 35%;
+margin-top: 5%;
 }
 
-/* .owl-demo .item img {
-  display: block;
-  width: 100%;
-  height: auto;
-  border: 1px solid rgba(136, 136, 136, 0.699);
+.sale-carousel .item{
+width: 75%;
+box-shadow: 10px 10px 20px 0px rgba(199, 197, 197, 0.534);
 }
 
-.slide-progress {
-  width: 0;
-  max-width: 100%;
-  height: 4px;
-  background: #fff;
-} */
-/* .sale-main-container .owl-dots{
-  width: 20px;
-  height: 20px;
-}
-.sale-main-container .owl-dots {
-  text-align: center;
-  padding-top: 15px;
-}
-.sale-main-container .owl-dots button.owl-dot {
-  width: 10px;
-  height: 10px;
-  border-radius: 50%;
-  display: inline-block;
-  background: #ccc;
-  margin: 0 3px;
-}
-.sale-main-container .owl-dots button.owl-dot.active {
-  background-color: #000;
-}
-.sale-main-container .owl-dots button.owl-dot:focus {
-  outline: none;
-}
-.sale-main-container .ow  l-nav button {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    background: #FBFBFB !important;
-}
-.sale-main-container .owl-carousel span {
-    font-size: 70px;    
-    position: relative;
-    top: -5px;
-    margin-bottom: 15%;
-} */
 
 .main-services{
   display: flex;
@@ -1256,7 +1262,7 @@ text-align: center;
 .steps span{
 font-weight: bold;
   }
-}
+
 
 
 body{font-family:Roboto,'Open Sans',sans-serif}
@@ -1333,15 +1339,16 @@ box-shadow: 20px 20px 30px 0px rgba(199, 197, 197, 0.64);
 
 .price-list-title{
   background-color: #E0E4D6;
-  max-width: 65%;
+  max-width: 55%;
   display: block;
   margin: 3.5% auto 2% auto;
   height: 3.1em;
   padding-top: 1px;
   padding-left: 20px;
+  position: relative;
 }
 .price-list-item{
-  max-width: 65%;
+  max-width: 55%;
   border: 1.5px solid #888;
   background: #fff;
   display: block;
@@ -1349,8 +1356,32 @@ box-shadow: 20px 20px 30px 0px rgba(199, 197, 197, 0.64);
   padding-left: 20px;
   position: relative;
 }
+.price-list-item a{
+  text-decoration: none;
+  color: #444444;
+}
+.price-list-item a:hover{
+  text-decoration: none;
+  color: #000000;
+}
+.price-list-item:hover{
+border: 2.5px solid #60CAAD;
+}
 .price-item{
 position: absolute;
 top: 0;
 right: 50px;
+}
+
+.text1 {
+  position: absolute;
+  left: 38%;
+  top: 67%;
+  background: #fff;
+  padding: 10px 10px;
+}
+.form-social{
+  position: absolute;
+  left: 41.5%;
+  top: 82%;
 }
