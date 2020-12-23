@@ -21,7 +21,7 @@ body{
     /* background-image: url(image/webb/webb/webb.png); */
     height: 100%;
     width: 100%;
-    margin:0;
+    margin:0!important;
     
 }
 h1 {
@@ -71,8 +71,6 @@ nav, header{
     color: #FFF;
     height: 50px;
     width: 101.3%;
-    margin-left: -0.7%;
-    margin-right: 0;
 	  /* padding-left: 18px; */
     border-radius: 0px;
 
