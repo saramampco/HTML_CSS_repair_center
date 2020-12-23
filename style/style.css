@@ -28,7 +28,7 @@ h1 {
     text-align: center;
     color:#444444;
     font-family: "Roboto"; sans-serif;
-    font-size: 32px;
+    font-size: 40px;
     padding-top: 2em;
 }
 h2 {
@@ -70,9 +70,12 @@ nav, header{
 	background: #60CAAD;
     color: #FFF;
     height: 50px;
-    width: 101.3%;
+    width: 100%;
 	  /* padding-left: 18px; */
     border-radius: 0px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
 
  
 }
@@ -82,7 +85,8 @@ nav, header{
 	list-style: none
 }
 #menu ul {
-	width: 100%;
+  width: 100%;
+  
 }
 #menu li {
 	float: left;
@@ -365,7 +369,7 @@ width: 340px;
 }
 .steps p{
  width: 150px;
-  margin: -50.5% 0 10% 70% !important;
+  margin: -50.5% 0 32% 70% !important;
 }
   .terms{
     max-width: 75%!important;
@@ -1111,6 +1115,7 @@ width: 340px;
   width: 14em;
   border: 1.5px solid #807f7f91;
   padding: 13px 0 13px 25px;
+  background-color: white;
 }
 .card-master img{
   width: 13em;
@@ -1250,7 +1255,7 @@ float: right;
 
 fieldset, label { margin: 0 0 2% 0; padding: 0; }
 body{ margin: 20px; }
-h1 { font-size: 1.5em; margin: 10px; }
+h1 { font-size: 1.8em; margin: 10px; }
 
 /****** Style Star Rating Widget *****/
 

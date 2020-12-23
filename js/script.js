@@ -1,5 +1,5 @@
 jQuery("#carousel").owlCarousel({
-   // autoplay: true,
+   autoplay: true,
    lazyLoad: true,
    rewind: true,
    margin: 20,
@@ -37,7 +37,7 @@ $(document).ready(function() {
       loop:true, //Зацикливаем слайдер
       margin:10, //Отступ от картино если выводите больше 1
       nav:false, //Отключил навигацию
-      // autoplay:true, //Автозапуск слайдера
+      autoplay:true, //Автозапуск слайдера
       smartSpeed:1000, //Время движения слайда
       autoplayTimeout:4000, //Время смены слайда
       responsive:{ //Адаптация в зависимости от разрешения экрана
