@@ -18,7 +18,7 @@ jQuery("#carousel").owlCarousel({
      },
  
      600: {
-       items: 3
+       items: 1
      },
  
      1024: {
